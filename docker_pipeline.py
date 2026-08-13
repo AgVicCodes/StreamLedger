@@ -17,6 +17,7 @@ import kafka
 import pytest
 import logging
 
+# from
 from kafka import KafkaConsumer, KafkaProducer
 
 
