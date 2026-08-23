@@ -13,3 +13,418 @@
 2026-08-13 18:12:35,488 INFO streamledger: Creating Producer Item...
 2026-08-13 18:12:35,488 INFO streamledger: Completing Producer...
 2026-08-13 18:12:35,570 INFO streamledger: Record successfully produced to payment_created [partition 0] at offset 7
+2026-08-22 23:23:30,228 INFO streamledger: Produced to payment_created [partition 0] at offset 8
+2026-08-22 23:24:26,877 INFO streamledger: Produced to payment_created [partition 0] at offset 9
+2026-08-22 23:24:27,724 INFO streamledger: Produced to payment_completed [partition 0] at offset 0
+2026-08-22 23:24:27,861 INFO streamledger: Produced to refund_initiated [partition 0] at offset 0
+2026-08-22 23:24:27,987 INFO streamledger: Produced to refund_completed [partition 0] at offset 0
+2026-08-22 23:24:28,110 INFO streamledger: Produced to chargeback_opened [partition 0] at offset 0
+2026-08-23 00:35:43,624 INFO streamledger: Starting StreamLedger Event Simulation...
+2026-08-23 00:36:22,914 INFO streamledger: Starting StreamLedger Event Simulation...
+2026-08-23 00:36:22,915 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:23,198 INFO streamledger: Produced to payment_created [partition 0] at offset 10
+2026-08-23 00:36:23,198 INFO streamledger: Injecting intentional duplicate for pay_f3b73e30
+2026-08-23 00:36:23,209 INFO streamledger: Produced to payment_created [partition 0] at offset 11
+2026-08-23 00:36:23,209 INFO streamledger: -> Injecting intentional late event for pay_f3b73e30
+2026-08-23 00:36:23,219 INFO streamledger: Produced to payment_created [partition 0] at offset 12
+2026-08-23 00:36:23,236 INFO streamledger: Produced to payment_completed [partition 0] at offset 1
+2026-08-23 00:36:24,238 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:24,249 INFO streamledger: Produced to payment_created [partition 0] at offset 13
+2026-08-23 00:36:24,259 INFO streamledger: Produced to payment_completed [partition 0] at offset 2
+2026-08-23 00:36:25,262 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:25,279 INFO streamledger: Produced to payment_created [partition 0] at offset 14
+2026-08-23 00:36:25,285 INFO streamledger: Produced to payment_completed [partition 0] at offset 3
+2026-08-23 00:36:26,287 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:26,306 INFO streamledger: Produced to payment_created [partition 0] at offset 15
+2026-08-23 00:36:26,314 INFO streamledger: Produced to payment_completed [partition 0] at offset 4
+2026-08-23 00:36:26,314 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:26,328 INFO streamledger: Produced to refund_initiated [partition 0] at offset 1
+2026-08-23 00:36:27,332 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:27,355 INFO streamledger: Produced to payment_created [partition 0] at offset 16
+2026-08-23 00:36:27,366 INFO streamledger: Produced to payment_completed [partition 0] at offset 5
+2026-08-23 00:36:28,372 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:28,382 INFO streamledger: Produced to payment_created [partition 0] at offset 17
+2026-08-23 00:36:28,388 INFO streamledger: Produced to payment_completed [partition 0] at offset 6
+2026-08-23 00:36:29,389 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:29,398 INFO streamledger: Produced to payment_created [partition 0] at offset 18
+2026-08-23 00:36:29,406 INFO streamledger: Produced to payment_completed [partition 0] at offset 7
+2026-08-23 00:36:30,411 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:30,422 INFO streamledger: Produced to payment_created [partition 0] at offset 19
+2026-08-23 00:36:30,423 INFO streamledger: Injecting intentional duplicate for pay_45013878
+2026-08-23 00:36:30,432 INFO streamledger: Produced to payment_created [partition 0] at offset 20
+2026-08-23 00:36:30,439 INFO streamledger: Produced to payment_completed [partition 0] at offset 8
+2026-08-23 00:36:30,440 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:30,446 INFO streamledger: Produced to refund_initiated [partition 0] at offset 2
+2026-08-23 00:36:31,452 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:31,470 INFO streamledger: Produced to payment_created [partition 0] at offset 21
+2026-08-23 00:36:31,476 INFO streamledger: Produced to payment_completed [partition 0] at offset 9
+2026-08-23 00:36:31,476 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:31,483 INFO streamledger: Produced to refund_initiated [partition 0] at offset 3
+2026-08-23 00:36:32,484 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:32,504 INFO streamledger: Produced to payment_created [partition 0] at offset 22
+2026-08-23 00:36:32,516 INFO streamledger: Produced to payment_completed [partition 0] at offset 10
+2026-08-23 00:36:33,522 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:33,538 INFO streamledger: Produced to payment_created [partition 0] at offset 23
+2026-08-23 00:36:33,549 INFO streamledger: Produced to payment_completed [partition 0] at offset 11
+2026-08-23 00:36:33,550 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:33,558 INFO streamledger: Produced to refund_initiated [partition 0] at offset 4
+2026-08-23 00:36:34,564 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:34,611 INFO streamledger: Produced to payment_created [partition 0] at offset 24
+2026-08-23 00:36:34,611 INFO streamledger: -> Injecting intentional late event for pay_b18696ff
+2026-08-23 00:36:34,616 INFO streamledger: Produced to payment_created [partition 0] at offset 25
+2026-08-23 00:36:34,623 INFO streamledger: Produced to payment_completed [partition 0] at offset 12
+2026-08-23 00:36:35,628 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:35,643 INFO streamledger: Produced to payment_created [partition 0] at offset 26
+2026-08-23 00:36:35,652 INFO streamledger: Produced to payment_completed [partition 0] at offset 13
+2026-08-23 00:36:36,656 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:36,665 INFO streamledger: Produced to payment_created [partition 0] at offset 27
+2026-08-23 00:36:36,673 INFO streamledger: Produced to payment_completed [partition 0] at offset 14
+2026-08-23 00:36:37,680 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:37,730 INFO streamledger: Produced to payment_created [partition 0] at offset 28
+2026-08-23 00:36:37,730 INFO streamledger: Injecting intentional duplicate for pay_4b0e88b2
+2026-08-23 00:36:37,739 INFO streamledger: Produced to payment_created [partition 0] at offset 29
+2026-08-23 00:36:37,745 INFO streamledger: Produced to payment_completed [partition 0] at offset 15
+2026-08-23 00:36:37,745 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:37,761 INFO streamledger: Produced to refund_initiated [partition 0] at offset 5
+2026-08-23 00:36:38,767 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:38,795 INFO streamledger: Produced to payment_created [partition 0] at offset 30
+2026-08-23 00:36:38,801 INFO streamledger: Produced to payment_completed [partition 0] at offset 16
+2026-08-23 00:36:38,802 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:38,810 INFO streamledger: Produced to refund_initiated [partition 0] at offset 6
+2026-08-23 00:36:39,812 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:39,838 INFO streamledger: Produced to payment_created [partition 0] at offset 31
+2026-08-23 00:36:39,843 INFO streamledger: Produced to payment_completed [partition 0] at offset 17
+2026-08-23 00:36:40,846 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:40,854 INFO streamledger: Produced to payment_created [partition 0] at offset 32
+2026-08-23 00:36:40,876 INFO streamledger: Produced to payment_completed [partition 0] at offset 18
+2026-08-23 00:36:41,881 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:41,891 INFO streamledger: Produced to payment_created [partition 0] at offset 33
+2026-08-23 00:36:41,901 INFO streamledger: Produced to payment_completed [partition 0] at offset 19
+2026-08-23 00:36:41,901 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:41,908 INFO streamledger: Produced to refund_initiated [partition 0] at offset 7
+2026-08-23 00:36:42,913 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:42,925 INFO streamledger: Produced to payment_created [partition 0] at offset 34
+2026-08-23 00:36:42,931 INFO streamledger: Produced to payment_completed [partition 0] at offset 20
+2026-08-23 00:36:43,935 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:43,943 INFO streamledger: Produced to payment_created [partition 0] at offset 35
+2026-08-23 00:36:43,971 INFO streamledger: Produced to payment_completed [partition 0] at offset 21
+2026-08-23 00:36:43,971 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:43,976 INFO streamledger: Produced to refund_initiated [partition 0] at offset 8
+2026-08-23 00:36:44,981 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:44,991 INFO streamledger: Produced to payment_created [partition 0] at offset 36
+2026-08-23 00:36:44,991 INFO streamledger: Injecting intentional duplicate for pay_96537364
+2026-08-23 00:36:44,998 INFO streamledger: Produced to payment_created [partition 0] at offset 37
+2026-08-23 00:36:45,003 INFO streamledger: Produced to payment_completed [partition 0] at offset 22
+2026-08-23 00:36:46,009 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:46,052 INFO streamledger: Produced to payment_created [partition 0] at offset 38
+2026-08-23 00:36:46,052 INFO streamledger: -> Injecting intentional late event for pay_b3845c32
+2026-08-23 00:36:46,063 INFO streamledger: Produced to payment_created [partition 0] at offset 39
+2026-08-23 00:36:46,070 INFO streamledger: Produced to payment_completed [partition 0] at offset 23
+2026-08-23 00:36:47,073 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:47,153 INFO streamledger: Produced to payment_created [partition 0] at offset 40
+2026-08-23 00:36:47,175 INFO streamledger: Produced to payment_completed [partition 0] at offset 24
+2026-08-23 00:36:48,178 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:48,230 INFO streamledger: Produced to payment_created [partition 0] at offset 41
+2026-08-23 00:36:48,234 INFO streamledger: Produced to payment_completed [partition 0] at offset 25
+2026-08-23 00:36:49,240 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:49,253 INFO streamledger: Produced to payment_created [partition 0] at offset 42
+2026-08-23 00:36:49,261 INFO streamledger: Produced to payment_completed [partition 0] at offset 26
+2026-08-23 00:36:50,266 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:50,286 INFO streamledger: Produced to payment_created [partition 0] at offset 43
+2026-08-23 00:36:50,295 INFO streamledger: Produced to payment_completed [partition 0] at offset 27
+2026-08-23 00:36:51,301 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:51,353 INFO streamledger: Produced to payment_created [partition 0] at offset 44
+2026-08-23 00:36:51,361 INFO streamledger: Produced to payment_completed [partition 0] at offset 28
+2026-08-23 00:36:51,363 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:51,372 INFO streamledger: Produced to refund_initiated [partition 0] at offset 9
+2026-08-23 00:36:52,374 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:52,388 INFO streamledger: Produced to payment_created [partition 0] at offset 45
+2026-08-23 00:36:52,388 INFO streamledger: Injecting intentional duplicate for pay_108c4d5c
+2026-08-23 00:36:52,400 INFO streamledger: Produced to payment_created [partition 0] at offset 46
+2026-08-23 00:36:52,412 INFO streamledger: Produced to payment_completed [partition 0] at offset 29
+2026-08-23 00:36:52,412 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:52,418 INFO streamledger: Produced to refund_initiated [partition 0] at offset 10
+2026-08-23 00:36:53,420 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:53,442 INFO streamledger: Produced to payment_created [partition 0] at offset 47
+2026-08-23 00:36:53,449 INFO streamledger: Produced to payment_completed [partition 0] at offset 30
+2026-08-23 00:36:54,454 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:54,486 INFO streamledger: Produced to payment_created [partition 0] at offset 48
+2026-08-23 00:36:54,496 INFO streamledger: Produced to payment_completed [partition 0] at offset 31
+2026-08-23 00:36:55,501 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:55,727 INFO streamledger: Produced to payment_created [partition 0] at offset 49
+2026-08-23 00:36:55,733 INFO streamledger: Produced to payment_completed [partition 0] at offset 32
+2026-08-23 00:36:55,733 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:36:55,740 INFO streamledger: Produced to refund_initiated [partition 0] at offset 11
+2026-08-23 00:36:56,745 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:56,753 INFO streamledger: Produced to payment_created [partition 0] at offset 50
+2026-08-23 00:36:56,761 INFO streamledger: Produced to payment_completed [partition 0] at offset 33
+2026-08-23 00:36:57,768 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:57,799 INFO streamledger: Produced to payment_created [partition 0] at offset 51
+2026-08-23 00:36:57,799 INFO streamledger: -> Injecting intentional late event for pay_a569e75d
+2026-08-23 00:36:57,808 INFO streamledger: Produced to payment_created [partition 0] at offset 52
+2026-08-23 00:36:57,818 INFO streamledger: Produced to payment_completed [partition 0] at offset 34
+2026-08-23 00:36:58,826 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:58,846 INFO streamledger: Produced to payment_created [partition 0] at offset 53
+2026-08-23 00:36:58,853 INFO streamledger: Produced to payment_completed [partition 0] at offset 35
+2026-08-23 00:36:59,859 INFO streamledger: Creating Payment Event...
+2026-08-23 00:36:59,913 INFO streamledger: Produced to payment_created [partition 0] at offset 54
+2026-08-23 00:36:59,914 INFO streamledger: Injecting intentional duplicate for pay_8a4eb9df
+2026-08-23 00:36:59,921 INFO streamledger: Produced to payment_created [partition 0] at offset 55
+2026-08-23 00:36:59,934 INFO streamledger: Produced to payment_completed [partition 0] at offset 36
+2026-08-23 00:37:00,936 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:00,946 INFO streamledger: Produced to payment_created [partition 0] at offset 56
+2026-08-23 00:37:00,951 INFO streamledger: Produced to payment_completed [partition 0] at offset 37
+2026-08-23 00:37:01,954 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:02,003 INFO streamledger: Produced to payment_created [partition 0] at offset 57
+2026-08-23 00:37:02,009 INFO streamledger: Produced to payment_completed [partition 0] at offset 38
+2026-08-23 00:37:03,014 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:03,038 INFO streamledger: Produced to payment_created [partition 0] at offset 58
+2026-08-23 00:37:03,047 INFO streamledger: Produced to payment_completed [partition 0] at offset 39
+2026-08-23 00:37:03,047 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:03,054 INFO streamledger: Produced to refund_initiated [partition 0] at offset 12
+2026-08-23 00:37:04,059 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:04,147 INFO streamledger: Produced to payment_created [partition 0] at offset 59
+2026-08-23 00:37:04,157 INFO streamledger: Produced to payment_completed [partition 0] at offset 40
+2026-08-23 00:37:05,161 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:05,191 INFO streamledger: Produced to payment_created [partition 0] at offset 60
+2026-08-23 00:37:05,198 INFO streamledger: Produced to payment_completed [partition 0] at offset 41
+2026-08-23 00:37:06,202 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:06,213 INFO streamledger: Produced to payment_created [partition 0] at offset 61
+2026-08-23 00:37:06,222 INFO streamledger: Produced to payment_completed [partition 0] at offset 42
+2026-08-23 00:37:07,223 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:07,289 INFO streamledger: Produced to payment_created [partition 0] at offset 62
+2026-08-23 00:37:07,289 INFO streamledger: Injecting intentional duplicate for pay_628409f6
+2026-08-23 00:37:07,296 INFO streamledger: Produced to payment_created [partition 0] at offset 63
+2026-08-23 00:37:07,302 INFO streamledger: Produced to payment_completed [partition 0] at offset 43
+2026-08-23 00:37:08,309 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:08,398 INFO streamledger: Produced to payment_created [partition 0] at offset 64
+2026-08-23 00:37:08,412 INFO streamledger: Produced to payment_completed [partition 0] at offset 44
+2026-08-23 00:37:09,418 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:09,434 INFO streamledger: Produced to payment_created [partition 0] at offset 65
+2026-08-23 00:37:09,434 INFO streamledger: -> Injecting intentional late event for pay_3e58b6fc
+2026-08-23 00:37:09,440 INFO streamledger: Produced to payment_created [partition 0] at offset 66
+2026-08-23 00:37:09,449 INFO streamledger: Produced to payment_completed [partition 0] at offset 45
+2026-08-23 00:37:10,453 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:10,526 INFO streamledger: Produced to payment_created [partition 0] at offset 67
+2026-08-23 00:37:10,536 INFO streamledger: Produced to payment_completed [partition 0] at offset 46
+2026-08-23 00:37:10,537 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:10,546 INFO streamledger: Produced to refund_initiated [partition 0] at offset 13
+2026-08-23 00:37:11,551 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:11,581 INFO streamledger: Produced to payment_created [partition 0] at offset 68
+2026-08-23 00:37:11,588 INFO streamledger: Produced to payment_completed [partition 0] at offset 47
+2026-08-23 00:37:11,588 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:11,594 INFO streamledger: Produced to refund_initiated [partition 0] at offset 14
+2026-08-23 00:37:12,599 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:12,607 INFO streamledger: Produced to payment_created [partition 0] at offset 69
+2026-08-23 00:37:12,613 INFO streamledger: Produced to payment_completed [partition 0] at offset 48
+2026-08-23 00:37:13,616 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:13,624 INFO streamledger: Produced to payment_created [partition 0] at offset 70
+2026-08-23 00:37:13,631 INFO streamledger: Produced to payment_completed [partition 0] at offset 49
+2026-08-23 00:37:14,637 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:14,650 INFO streamledger: Produced to payment_created [partition 0] at offset 71
+2026-08-23 00:37:14,650 INFO streamledger: Injecting intentional duplicate for pay_77b8720a
+2026-08-23 00:37:14,656 INFO streamledger: Produced to payment_created [partition 0] at offset 72
+2026-08-23 00:37:14,661 INFO streamledger: Produced to payment_completed [partition 0] at offset 50
+2026-08-23 00:37:15,666 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:15,678 INFO streamledger: Produced to payment_created [partition 0] at offset 73
+2026-08-23 00:37:15,684 INFO streamledger: Produced to payment_completed [partition 0] at offset 51
+2026-08-23 00:37:16,697 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:16,797 INFO streamledger: Produced to payment_created [partition 0] at offset 74
+2026-08-23 00:37:16,806 INFO streamledger: Produced to payment_completed [partition 0] at offset 52
+2026-08-23 00:37:17,811 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:17,823 INFO streamledger: Produced to payment_created [partition 0] at offset 75
+2026-08-23 00:37:17,836 INFO streamledger: Produced to payment_completed [partition 0] at offset 53
+2026-08-23 00:37:18,841 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:18,852 INFO streamledger: Produced to payment_created [partition 0] at offset 76
+2026-08-23 00:37:18,863 INFO streamledger: Produced to payment_completed [partition 0] at offset 54
+2026-08-23 00:37:18,863 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:18,871 INFO streamledger: Produced to refund_initiated [partition 0] at offset 15
+2026-08-23 00:37:19,876 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:19,891 INFO streamledger: Produced to payment_created [partition 0] at offset 77
+2026-08-23 00:37:19,914 INFO streamledger: Produced to payment_completed [partition 0] at offset 55
+2026-08-23 00:37:20,916 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:20,935 INFO streamledger: Produced to payment_created [partition 0] at offset 78
+2026-08-23 00:37:20,935 INFO streamledger: -> Injecting intentional late event for pay_b84f701a
+2026-08-23 00:37:20,945 INFO streamledger: Produced to payment_created [partition 0] at offset 79
+2026-08-23 00:37:20,951 INFO streamledger: Produced to payment_completed [partition 0] at offset 56
+2026-08-23 00:37:21,956 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:21,964 INFO streamledger: Produced to payment_created [partition 0] at offset 80
+2026-08-23 00:37:21,964 INFO streamledger: Injecting intentional duplicate for pay_89fe86f8
+2026-08-23 00:37:21,972 INFO streamledger: Produced to payment_created [partition 0] at offset 81
+2026-08-23 00:37:21,985 INFO streamledger: Produced to payment_completed [partition 0] at offset 57
+2026-08-23 00:37:21,985 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:21,993 INFO streamledger: Produced to refund_initiated [partition 0] at offset 16
+2026-08-23 00:37:22,997 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:23,056 INFO streamledger: Produced to payment_created [partition 0] at offset 82
+2026-08-23 00:37:23,127 INFO streamledger: Produced to payment_completed [partition 0] at offset 58
+2026-08-23 00:37:23,128 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:23,166 INFO streamledger: Produced to refund_initiated [partition 0] at offset 17
+2026-08-23 00:37:24,171 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:24,218 INFO streamledger: Produced to payment_created [partition 0] at offset 83
+2026-08-23 00:37:24,223 INFO streamledger: Produced to payment_completed [partition 0] at offset 59
+2026-08-23 00:37:25,228 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:25,241 INFO streamledger: Produced to payment_created [partition 0] at offset 84
+2026-08-23 00:37:25,248 INFO streamledger: Produced to payment_completed [partition 0] at offset 60
+2026-08-23 00:37:26,252 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:26,272 INFO streamledger: Produced to payment_created [partition 0] at offset 85
+2026-08-23 00:37:26,279 INFO streamledger: Produced to payment_completed [partition 0] at offset 61
+2026-08-23 00:37:27,282 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:27,289 INFO streamledger: Produced to payment_created [partition 0] at offset 86
+2026-08-23 00:37:27,300 INFO streamledger: Produced to payment_completed [partition 0] at offset 62
+2026-08-23 00:37:27,300 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:27,307 INFO streamledger: Produced to refund_initiated [partition 0] at offset 18
+2026-08-23 00:37:28,314 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:28,405 INFO streamledger: Produced to payment_created [partition 0] at offset 87
+2026-08-23 00:37:28,411 INFO streamledger: Produced to payment_completed [partition 0] at offset 63
+2026-08-23 00:37:28,412 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:28,419 INFO streamledger: Produced to refund_initiated [partition 0] at offset 19
+2026-08-23 00:37:29,420 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:29,435 INFO streamledger: Produced to payment_created [partition 0] at offset 88
+2026-08-23 00:37:29,435 INFO streamledger: Injecting intentional duplicate for pay_bda12a50
+2026-08-23 00:37:29,452 INFO streamledger: Produced to payment_created [partition 0] at offset 89
+2026-08-23 00:37:29,463 INFO streamledger: Produced to payment_completed [partition 0] at offset 64
+2026-08-23 00:37:30,468 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:30,477 INFO streamledger: Produced to payment_created [partition 0] at offset 90
+2026-08-23 00:37:30,482 INFO streamledger: Produced to payment_completed [partition 0] at offset 65
+2026-08-23 00:37:30,482 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:30,489 INFO streamledger: Produced to refund_initiated [partition 0] at offset 20
+2026-08-23 00:37:31,494 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:31,531 INFO streamledger: Produced to payment_created [partition 0] at offset 91
+2026-08-23 00:37:31,539 INFO streamledger: Produced to payment_completed [partition 0] at offset 66
+2026-08-23 00:37:32,546 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:32,556 INFO streamledger: Produced to payment_created [partition 0] at offset 92
+2026-08-23 00:37:32,556 INFO streamledger: -> Injecting intentional late event for pay_39f6dd1f
+2026-08-23 00:37:32,563 INFO streamledger: Produced to payment_created [partition 0] at offset 93
+2026-08-23 00:37:32,570 INFO streamledger: Produced to payment_completed [partition 0] at offset 67
+2026-08-23 00:37:33,576 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:33,584 INFO streamledger: Produced to payment_created [partition 0] at offset 94
+2026-08-23 00:37:33,590 INFO streamledger: Produced to payment_completed [partition 0] at offset 68
+2026-08-23 00:37:34,596 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:34,608 INFO streamledger: Produced to payment_created [partition 0] at offset 95
+2026-08-23 00:37:34,614 INFO streamledger: Produced to payment_completed [partition 0] at offset 69
+2026-08-23 00:37:35,615 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:35,624 INFO streamledger: Produced to payment_created [partition 0] at offset 96
+2026-08-23 00:37:35,631 INFO streamledger: Produced to payment_completed [partition 0] at offset 70
+2026-08-23 00:37:36,636 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:36,655 INFO streamledger: Produced to payment_created [partition 0] at offset 97
+2026-08-23 00:37:36,655 INFO streamledger: Injecting intentional duplicate for pay_3c62a875
+2026-08-23 00:37:36,663 INFO streamledger: Produced to payment_created [partition 0] at offset 98
+2026-08-23 00:37:36,670 INFO streamledger: Produced to payment_completed [partition 0] at offset 71
+2026-08-23 00:37:37,673 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:37,690 INFO streamledger: Produced to payment_created [partition 0] at offset 99
+2026-08-23 00:37:37,715 INFO streamledger: Produced to payment_completed [partition 0] at offset 72
+2026-08-23 00:37:38,721 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:38,775 INFO streamledger: Produced to payment_created [partition 0] at offset 100
+2026-08-23 00:37:38,779 INFO streamledger: Produced to payment_completed [partition 0] at offset 73
+2026-08-23 00:37:39,784 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:39,792 INFO streamledger: Produced to payment_created [partition 0] at offset 101
+2026-08-23 00:37:39,799 INFO streamledger: Produced to payment_completed [partition 0] at offset 74
+2026-08-23 00:37:40,800 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:40,859 INFO streamledger: Produced to payment_created [partition 0] at offset 102
+2026-08-23 00:37:40,868 INFO streamledger: Produced to payment_completed [partition 0] at offset 75
+2026-08-23 00:37:41,873 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:41,885 INFO streamledger: Produced to payment_created [partition 0] at offset 103
+2026-08-23 00:37:41,891 INFO streamledger: Produced to payment_completed [partition 0] at offset 76
+2026-08-23 00:37:41,891 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:41,898 INFO streamledger: Produced to refund_initiated [partition 0] at offset 21
+2026-08-23 00:37:42,902 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:42,912 INFO streamledger: Produced to payment_created [partition 0] at offset 104
+2026-08-23 00:37:42,920 INFO streamledger: Produced to payment_completed [partition 0] at offset 77
+2026-08-23 00:37:42,920 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:42,929 INFO streamledger: Produced to refund_initiated [partition 0] at offset 22
+2026-08-23 00:37:43,934 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:43,942 INFO streamledger: Produced to payment_created [partition 0] at offset 105
+2026-08-23 00:37:43,942 INFO streamledger: Injecting intentional duplicate for pay_d7c0a6f5
+2026-08-23 00:37:43,948 INFO streamledger: Produced to payment_created [partition 0] at offset 106
+2026-08-23 00:37:43,952 INFO streamledger: Produced to payment_completed [partition 0] at offset 78
+2026-08-23 00:37:43,953 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:43,958 INFO streamledger: Produced to refund_initiated [partition 0] at offset 23
+2026-08-23 00:37:44,963 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:44,987 INFO streamledger: Produced to payment_created [partition 0] at offset 107
+2026-08-23 00:37:44,992 INFO streamledger: Produced to payment_completed [partition 0] at offset 79
+2026-08-23 00:37:45,997 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:46,007 INFO streamledger: Produced to payment_created [partition 0] at offset 108
+2026-08-23 00:37:46,014 INFO streamledger: Produced to payment_completed [partition 0] at offset 80
+2026-08-23 00:37:47,020 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:47,030 INFO streamledger: Produced to payment_created [partition 0] at offset 109
+2026-08-23 00:37:47,037 INFO streamledger: Produced to payment_completed [partition 0] at offset 81
+2026-08-23 00:37:47,037 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:47,042 INFO streamledger: Produced to refund_initiated [partition 0] at offset 24
+2026-08-23 00:37:48,048 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:48,058 INFO streamledger: Produced to payment_created [partition 0] at offset 110
+2026-08-23 00:37:48,068 INFO streamledger: Produced to payment_completed [partition 0] at offset 82
+2026-08-23 00:37:49,073 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:49,096 INFO streamledger: Produced to payment_created [partition 0] at offset 111
+2026-08-23 00:37:49,101 INFO streamledger: Produced to payment_completed [partition 0] at offset 83
+2026-08-23 00:37:50,107 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:50,126 INFO streamledger: Produced to payment_created [partition 0] at offset 112
+2026-08-23 00:37:50,135 INFO streamledger: Produced to payment_completed [partition 0] at offset 84
+2026-08-23 00:37:51,141 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:51,151 INFO streamledger: Produced to payment_created [partition 0] at offset 113
+2026-08-23 00:37:51,151 INFO streamledger: Injecting intentional duplicate for pay_a7e654e7
+2026-08-23 00:37:51,157 INFO streamledger: Produced to payment_created [partition 0] at offset 114
+2026-08-23 00:37:51,165 INFO streamledger: Produced to payment_completed [partition 0] at offset 85
+2026-08-23 00:37:52,170 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:52,181 INFO streamledger: Produced to payment_created [partition 0] at offset 115
+2026-08-23 00:37:52,186 INFO streamledger: Produced to payment_completed [partition 0] at offset 86
+2026-08-23 00:37:52,187 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:52,193 INFO streamledger: Produced to refund_initiated [partition 0] at offset 25
+2026-08-23 00:37:53,198 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:53,218 INFO streamledger: Produced to payment_created [partition 0] at offset 116
+2026-08-23 00:37:53,222 INFO streamledger: Produced to payment_completed [partition 0] at offset 87
+2026-08-23 00:37:53,222 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:53,227 INFO streamledger: Produced to refund_initiated [partition 0] at offset 26
+2026-08-23 00:37:54,230 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:54,239 INFO streamledger: Produced to payment_created [partition 0] at offset 117
+2026-08-23 00:37:54,244 INFO streamledger: Produced to payment_completed [partition 0] at offset 88
+2026-08-23 00:37:55,248 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:55,259 INFO streamledger: Produced to payment_created [partition 0] at offset 118
+2026-08-23 00:37:55,259 INFO streamledger: -> Injecting intentional late event for pay_36cc9014
+2026-08-23 00:37:55,266 INFO streamledger: Produced to payment_created [partition 0] at offset 119
+2026-08-23 00:37:55,272 INFO streamledger: Produced to payment_completed [partition 0] at offset 89
+2026-08-23 00:37:55,272 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:55,280 INFO streamledger: Produced to refund_initiated [partition 0] at offset 27
+2026-08-23 00:37:56,285 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:56,297 INFO streamledger: Produced to payment_created [partition 0] at offset 120
+2026-08-23 00:37:56,305 INFO streamledger: Produced to payment_completed [partition 0] at offset 90
+2026-08-23 00:37:56,305 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:37:56,311 INFO streamledger: Produced to refund_initiated [partition 0] at offset 28
+2026-08-23 00:37:57,314 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:57,357 INFO streamledger: Produced to payment_created [partition 0] at offset 121
+2026-08-23 00:37:57,373 INFO streamledger: Produced to payment_completed [partition 0] at offset 91
+2026-08-23 00:37:58,388 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:58,472 INFO streamledger: Produced to payment_created [partition 0] at offset 122
+2026-08-23 00:37:58,491 INFO streamledger: Injecting intentional duplicate for pay_8960274e
+2026-08-23 00:37:58,538 INFO streamledger: Produced to payment_created [partition 0] at offset 123
+2026-08-23 00:37:58,564 INFO streamledger: Produced to payment_completed [partition 0] at offset 92
+2026-08-23 00:37:59,569 INFO streamledger: Creating Payment Event...
+2026-08-23 00:37:59,580 INFO streamledger: Produced to payment_created [partition 0] at offset 124
+2026-08-23 00:37:59,588 INFO streamledger: Produced to payment_completed [partition 0] at offset 93
+2026-08-23 00:38:00,593 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:00,618 INFO streamledger: Produced to payment_created [partition 0] at offset 125
+2026-08-23 00:38:00,626 INFO streamledger: Produced to payment_completed [partition 0] at offset 94
+2026-08-23 00:38:01,631 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:01,640 INFO streamledger: Produced to payment_created [partition 0] at offset 126
+2026-08-23 00:38:01,647 INFO streamledger: Produced to payment_completed [partition 0] at offset 95
+2026-08-23 00:38:02,651 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:02,662 INFO streamledger: Produced to payment_created [partition 0] at offset 127
+2026-08-23 00:38:02,669 INFO streamledger: Produced to payment_completed [partition 0] at offset 96
+2026-08-23 00:38:02,670 INFO streamledger: Triggering a refund/chargeback
+2026-08-23 00:38:02,677 INFO streamledger: Produced to refund_initiated [partition 0] at offset 29
+2026-08-23 00:38:03,682 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:03,703 INFO streamledger: Produced to payment_created [partition 0] at offset 128
+2026-08-23 00:38:03,714 INFO streamledger: Produced to payment_completed [partition 0] at offset 97
+2026-08-23 00:38:04,719 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:04,761 INFO streamledger: Produced to payment_created [partition 0] at offset 129
+2026-08-23 00:38:04,770 INFO streamledger: Produced to payment_completed [partition 0] at offset 98
+2026-08-23 00:38:05,775 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:05,789 INFO streamledger: Produced to payment_created [partition 0] at offset 130
+2026-08-23 00:38:05,789 INFO streamledger: Injecting intentional duplicate for pay_2cd2c65c
+2026-08-23 00:38:05,800 INFO streamledger: Produced to payment_created [partition 0] at offset 131
+2026-08-23 00:38:05,808 INFO streamledger: Produced to payment_completed [partition 0] at offset 99
+2026-08-23 00:38:06,813 INFO streamledger: Creating Payment Event...
+2026-08-23 00:38:06,827 INFO streamledger: Produced to payment_created [partition 0] at offset 132
+2026-08-23 00:38:06,827 INFO streamledger: -> Injecting intentional late event for pay_bd980eb0
+2026-08-23 00:38:06,832 INFO streamledger: Produced to payment_created [partition 0] at offset 133
+2026-08-23 00:38:06,839 INFO streamledger: Produced to payment_completed [partition 0] at offset 100
+2026-08-23 00:38:07,844 INFO streamledger: Simulation batch complete!

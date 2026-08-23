@@ -13,7 +13,7 @@ Key concept: Why partition by merchant_id? Write 3 sentences answering this.
 
 """
 
-from docker_pipeline import add_nums
+from docker_pipeline_old import add_nums
 
 def test_add_nums():
     assert add_nums(1, 2) == 3

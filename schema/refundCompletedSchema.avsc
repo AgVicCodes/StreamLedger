@@ -1,0 +1,11 @@
+{
+    "type": "record",
+    "namespace": "com.streamledger.refundCompleted",
+    "name": "RefundCompleted",
+    "fields": [
+        { "name": "payment_id", "type": "string", "doc": "Id of payment transaction" },
+        { "name": "merchant_id", "type": "string", "doc": "Id of seller/merchant" },
+        { "name": "status", "type": "string", "doc": "Status of refund: pending, completed, cancelled" },
+        { "name": "timestamp", "type": { "type": "long", "logicalType": "timestamp-millis" }, "doc": "Time of transaction in milliseconds since epoch" }
+    ]
+}

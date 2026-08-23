@@ -1,0 +1,11 @@
+{
+    "type": "record",
+    "namespace": "com.streamledger.chargebackOpened",
+    "name": "ChargebackOpened",
+    "fields": [
+        { "name": "payment_id", "type": "string", "doc": "Id of payment transaction" },
+        { "name": "merchant_id", "type": "string", "doc": "Id of seller/merchant" },
+        { "name": "percentage", "type": "float", "doc": "Cashback percentage" },
+        { "name": "timestamp", "type": { "type": "long", "logicalType": "timestamp-millis" }, "doc": "Time of transaction in milliseconds since epoch" }
+    ]
+}
